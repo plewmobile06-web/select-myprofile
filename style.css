@@ -1,9 +1,9 @@
 /* ===== ตัวแปรสี (CSS Custom Properties) ===== */
 :root {
-  --bg: #f4f6fb;
-  --card-bg: #ffffff;
+  --bg: #97b2f8;
+  --card-bg: #d7e3fc;
   --text: #1f2933;
-  --accent: #2563eb;
+  --accent: #3f42f5;
 }
  
 /* ธีมมืด: สลับด้วยการเติม class ที่ <body> ผ่าน JS */
