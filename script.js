@@ -17,7 +17,7 @@ toggleButton.addEventListener('click', () => {
  
 // ===== Footer: ปีอัตโนมัติด้วย template literal =====
 const currentYear = new Date().getFullYear();
-footer.textContent = `
+footer.innerHTML = `
   <div>ทดสอบวิชาหัวข้อพิเศษซอฟต์แวร์</div>
   <div>© ${currentYear} — Deploy ด้วย GitHub Pages 🚀</div>
 `;
