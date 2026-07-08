@@ -16,7 +16,9 @@
 <body>
   <main class="card">
     <img class="card__avatar" src="https://avatars.githubusercontent.com/u/9919?v=4" alt="รูปโปรไฟล์">
-    <h1 class="card__name">Patnaree Ruangdit</h1>
+    <!-- เปลียนชื่อสลุนตามที่ต้องการ -->
+    <h1 id="profile-name" class="card__name">ชื่อ สกุล</h1> 
+    
     <p class="card__title">นักศึกษาวิศวกรรมคอมพิวเตอร์</p>
     <p class="card__bio">กำลังเรียนรู้ Full-stack Development และ DevOps</p>
  
@@ -26,6 +28,12 @@
     </ul>
  
     <button id="theme-toggle" class="card__button">🌙 โหมดกลางคืน</button>
+
+    <!-- งาน3 -->
+    <div style="margin: 15px 0; width: 100%;">
+      <input type="text" id="name-input" class="textinput" placeholder="พิมพ์ชื่อใหม่เพื่อเปลี่ยนชื่อ...">
+    </div>  
+    <!-- จบงาน3 -->
  
     <footer id="card-footer" class="card__footer"></footer>
   </main>
